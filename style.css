@@ -1,0 +1,342 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.nav_logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image:url("amazon_logo.png") ;
+    height: 50px;
+    width: 100px;
+    background-size: cover;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/* box 2 */
+.add-first{
+color: #CCCCCC;
+font-size: 0.85rem;
+margin-left: 15px;
+}
+.add-second{
+font-size: 1rem;
+padding-left: 5px;
+}
+
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+
+.nav_address{
+    height: 50px;
+    width: 90px;
+
+
+}
+
+/* search */
+.nav-search{
+    display: flex;
+    background-color: #FFFFFF;
+    width: 440px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+
+}
+
+.nav-input{
+    width: 340px;
+    border: none;
+}
+
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #cb9d06;
+    border: none;
+    margin: 0px;
+    width: 45px;
+    height: 40px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 1.3rem;
+    
+    
+}
+
+.nav-select{
+    text-align: center;
+    width: 50px;
+    background-color: #f3f3f3;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+.fourth-box{
+    height: 50px;
+    width: 132px;
+    
+}
+
+.fb-1line{
+    font-size: 14px;
+}
+
+.fb-2line{
+    background-color: black;
+    color: white;
+    border: 0px;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+}
+
+.fifth-1line{
+    font-size: 14px;
+}
+
+.fifth-2line{
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.fifth-box{
+height: 50px;
+width: 77px;
+}
+
+.cart-icon i{
+    font-size: 32px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.panel{
+
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+
+.p1b{
+    width: 60px;
+    height: 40px;
+    /* padding: 8px; */
+    
+    
+}
+
+.p2b{
+    width: 103px;
+   
+}
+
+.p3b{
+    width: 128px;
+   
+}
+
+.p4b{
+    width: 70px;
+   
+}
+
+.p5b{
+    width: 90px;
+    
+}
+
+.p6b{
+    width: 41px;
+
+}
+.x{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.set{
+    width: 70%;
+    display: flex;
+    margin-left: 20px;
+}
+
+.hero-section{
+    background-image: url("hero_image.jpg");
+height: 400px;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+
+.hero-msg{
+    height: 40px;
+    background-color: white;
+    width: 80%;
+    margin-bottom: 25px;
+    
+
+}
+
+
+.box{
+    height: 330px;
+    margin: 1rem;
+    background-color: white;
+}
+
+.pic-11{
+background-image: url("box1_image.jpg");
+}
+
+.pic-12{
+    background-image: url("box2_image.jpg");
+}
+
+.pic-13{
+    background-image: url("box3_image.jpg");
+}
+
+.pic-14{
+    background-image: url("box4_image.jpg");
+}
+.pic-21{
+    background-image: url("box5_image.jpg");
+}
+.pic-22{
+    background-image: url("box6_image.jpg");
+}
+.pic-23{
+    background-image: url("box7_image.jpg");
+}
+.pic-24{
+    background-image: url("box8_image.jpg");
+}
+.image{
+    width: 270px;
+    height: 230px;
+    margin: 1rem;
+}
+
+.text{
+    font-size: 21px;
+    font-weight: bolder;
+    margin: 1rem;
+}
+.shop-now{
+    margin: 1rem;
+}
+
+.box-1{
+    display: flex;
+    background-color:rgba(207, 195, 195, 0.452);
+}
+
+.box-2{
+    display: flex;
+    background-color: rgb(207, 195, 195,0.452);
+}
+
+.foot-panel1{
+    background-color: #222f3d;
+    height: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    font: 14px;
+    color: white;
+    padding: 5px;
+}
+.lhead{
+    font: 16px;
+    font-weight: bolder;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+.foot-panel2{
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+    height: 318px;
+}
+
+.foot-panel3{
+    height: 70px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel4{
+    height: 20px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.x{
+    color: white;
+    font: 6px;
+    padding: 10px;
+}
+
+.foot-panel5{
+    height: 20px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
